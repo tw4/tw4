@@ -7,4 +7,4 @@
 
 # Published NPM Packages
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=responserun&repo=responserun-mock)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=responserun&repo=responserun-mock)](https://github.com/responserun/responserun-mock)
