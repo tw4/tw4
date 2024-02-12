@@ -1,6 +1,5 @@
 # 💫 About Me:
-<br>Hello! I'm Mert, a student passionate about technology and currently studying Economics and Management Information Systems. I love to travel to experience different cultures and explore new places, and finding societal solutions through technology. On my learning journey, I am focusing on projects that prioritize user experience and make people's lives easier.
-
+<br>Hello I am Mert! I have a passionate interest in technology. Experiencing different cultures and exploring new places excites me. Additionally, I am interested in finding societal solutions through technology. In my learning journey, I focus on projects that prioritize user experience and aim to make people's lives easier.
 
 ## 🌐 Socials:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/20962908) 
