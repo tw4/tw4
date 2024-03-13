@@ -1,5 +1,26 @@
 # 💫 About Me:
-<br>Hello I am Mert! I have a passionate interest in technology. Experiencing different cultures and exploring new places excites me. Additionally, I am interested in finding societal solutions through technology. In my learning journey, I focus on projects that prioritize user experience and aim to make people's lives easier.
+Hello!
+
+I am a passionate professional in software development. With my experiences and accumulated knowledge, I am continuously progressing in the journey of self-improvement in the software world.
+
+Throughout my professional career, I have been involved in various projects, specializing particularly in the development of web applications. I have worked on backend solutions for coffee shops using .NET 8 Web API, strengthening my core competencies in database management, authentication, and tools like Swagger. Additionally, I have successfully integrated extra features such as Stripe payment integration and Elasticsearch.
+
+The helpdesk application I developed using Java and JPA has effectively assisted businesses in managing support requests. Prioritizing functions like the creation, categorization, and assignment of support tickets with a user-centric approach has contributed to enhancing customer satisfaction for businesses.
+
+Furthermore, I have focused on producing innovative and user-friendly solutions through the development of a random data generation library using TypeScript and React applications.
+
+My education began in the field of Economics and Administrative Sciences at Trakya University and continued with Management Information Systems at Istanbul University. Combining theoretical knowledge with practical experiences, I have gained a comprehensive perspective.
+
+I enjoy being in the constantly changing and evolving environment of the technology world. I aim to add value to my projects using a wide range of technologies such as C#, .NET, Java, Redis, Elasticsearch, among others. I also strive to effectively utilize tools like Github Pages, Vercel, and Docker for project development and deployment.
+
+With a principle of being open to new technologies and developments, I am always motivated to learn and renew myself. As a professional inclined towards teamwork, possessing strong problem-solving skills, and being determined to produce innovative solutions, I am here to contribute to the world of software.
+
+I would be delighted to collaborate or provide further information on any relevant topic. Feel free to reach out to me.
+
+
+
+
+
 
 ## 🌐 Socials:
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/20962908) 
