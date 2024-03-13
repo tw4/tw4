@@ -1,4 +1,4 @@
-# 💫 About Me:
+# 💫 About Me
 Hello!
 
 I am a passionate professional in software development. With my experiences and accumulated knowledge, I am continuously progressing in the journey of self-improvement in the software world.
