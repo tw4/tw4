@@ -26,7 +26,7 @@ Hi, I am [Mert Türkoğlu](https://github.com/tw4). 👋 I am an independent sof
 - [DevFest Edirne'23](https://gdg.community.dev/events/details/google-gdg-edirne-presents-devfest-edirne23/)
 
 ## 📝 Blog Post
-
+- [Windows 11'de Gelen HTTP İsteklerini Localhost'a Yönlendirme](https://www.mertturkoglu.com/blog/6)
 - [Yazılıma Yeni Başlayanlar için Yol Haritası: İlk Adımdan Uzmanlığa](https://www.mertturkoglu.com/blog/1)
 - [ITIL Fundamentals: IT Hizmet Yönetimine Kolay Bir Giriş](https://www.mertturkoglu.com/blog/2)
 - [Windows Domain Yapılarında Kullanıcı Yönetimi](https://www.mertturkoglu.com/blog/3)
