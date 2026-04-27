@@ -29,14 +29,6 @@ OSS has been a huge part of my journey and I'd like to highlight a few notable p
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/tw4/nova-lang"><b> nova-lang</b></a> — programming language implementation (lexer, parser, AST, VM, GC, tooling)</td>
-      <td><img alt="Rust" src="https://img.shields.io/badge/-Rust-ce412B?style=flat-square&logo=rust&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/tw4/nova-lang?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/tw4/nova-lang?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/tw4/nova-lang?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/tw4/nova-lang?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
       <td><a href="https://github.com/tw4/AstraUI"><b> AstraUI</b></a> — React UI kit with Storybook and theming</td>
       <td><img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /></td>
       <td><img alt="Stars" src="https://img.shields.io/github/stars/tw4/AstraUI?style=flat-square&labelColor=343b41"/></td>
