@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace S4HanaIntegration.Models;
+
+public partial class CcmTempKontratturubakim
+{
+    public long? Volumeid { get; set; }
+
+    public long? Dataid { get; set; }
+
+    public long? Versionnum { get; set; }
+
+    public long? Seq { get; set; }
+
+    public int? Rowseqnum { get; set; }
+
+    public int? Iterationnum { get; set; }
+
+    public string? Sirketkodu { get; set; }
+
+    public string? Kontratturu { get; set; }
+
+    public int? Aktif { get; set; }
+
+    public string? Id { get; set; }
+}

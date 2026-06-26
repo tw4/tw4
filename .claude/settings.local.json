@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-Command *)",
+      "PowerShell(hdbsql *)",
+      "PowerShell(python \"C:\\\\Users\\\\MTURKO~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-mturkoglu-swe-OTXIntegration\\\\a8b99773-f09c-4486-842e-4f54d54d7fa8\\\\scratchpad\\\\preview_inserts.py\" 2>&1)",
+      "PowerShell(dotnet new webapi *)",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(dotnet restore *)",
+      "PowerShell(Stop-Process *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\mturkoglu\\\\swe\\\\OTXIntegration\\\\otx-admin-ui\\\\app\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\mturkoglu\\\\swe\\\\OTXIntegration\\\\otx-admin-ui\\\\\", \"\"\\) })",
+      "PowerShell(try { $r = Invoke-WebRequest \"http://localhost:5175/api/admin/tables?filter=MARA\" -TimeoutSec 5; Write-Host \"Status:\" $r.StatusCode; Write-Host \"Body:\" $r.Content } catch { Write-Host \"Hata:\" $_.Exception.Message })",
+      "PowerShell(Get-NetTCPConnection *)",
+      "PowerShell(try { $r = Invoke-WebRequest \"http://localhost:5055/api/admin/tables?filter=MARA\" -TimeoutSec 10; Write-Host \"Status:\" $r.StatusCode; Write-Host \"Body \\(ilk 300 kar\\):\" \\($r.Content.Substring\\(0, [Math]::Min\\(300, $r.Content.Length\\)\\)\\) } catch { Write-Host \"Hata:\" $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest \"http://localhost:5055/api/admin/tables\" -TimeoutSec 30; Write-Host \"Status:\" $r.StatusCode; Write-Host \"Kayıt sayısı:\" \\($r.Content | ConvertFrom-Json\\).Count } catch { Write-Host \"Hata:\" $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest \"http://localhost:5055/api/admin/tables/MARA\" -TimeoutSec 15; Write-Host \"Status:\" $r.StatusCode; Write-Host \"Body \\(ilk 500\\):\" \\($r.Content.Substring\\(0, [Math]::Min\\(500, $r.Content.Length\\)\\)\\) } catch { Write-Host \"Hata:\" $_.Exception.Message; Write-Host \"Response:\" $_.Exception.Response })",
+      "PowerShell(Invoke-WebRequest \"http://localhost:5055/api/admin/tables/T001?page=1&pageSize=5\" -MaximumRedirection 0 -ErrorAction SilentlyContinue | Select-Object StatusCode, Headers)",
+      "PowerShell(gh auth *)"
+    ]
+  }
+}

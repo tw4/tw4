@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace S4HanaIntegration.Models;
+
+public partial class WebnodesmetaTrTr
+{
+    public long? Dataid { get; set; }
+
+    public string Name { get; set; } = null!;
+
+    public string? Dcomment { get; set; }
+}

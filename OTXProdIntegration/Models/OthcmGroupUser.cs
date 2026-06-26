@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace OTXProdIntegration.Models;
+
+public partial class OthcmGroupUser
+{
+    public long? SfGroupId { get; set; }
+
+    public string SfUserId { get; set; } = null!;
+}

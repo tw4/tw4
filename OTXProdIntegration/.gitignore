@@ -1,0 +1,15 @@
+## Build output
+bin/
+obj/
+
+## Secrets — canlı DB şifresi burada, git'e gönderilmez
+appsettings.Development.json
+
+## VS/Rider
+.vs/
+*.user
+.idea/
+
+## OS
+.DS_Store
+Thumbs.db

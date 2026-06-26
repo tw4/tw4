@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace OTXProdIntegration.Models;
+
+public partial class OthcmJobRelationship
+{
+    public string SfUserId { get; set; } = null!;
+
+    public string? RelationRole { get; set; }
+
+    public string? SfMgrUserId { get; set; }
+}

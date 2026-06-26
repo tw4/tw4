@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace OTXProdIntegration.Models;
+
+public partial class PowfClearance
+{
+    public long? Id { get; set; }
+
+    public short? Parpos { get; set; }
+
+    public short? Pos { get; set; }
+
+    public string? Clearance { get; set; }
+}

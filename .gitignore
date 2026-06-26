@@ -1,0 +1,24 @@
+# .NET build outputs
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Credentials — never commit
+appsettings.Development.json
+appsettings.Production.json
+.env.local
+.env*.local
+
+# Next.js
+.next/
+out/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

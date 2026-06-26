@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace S4HanaIntegration.Models;
+
+public partial class OtsapxecmSeqnr
+{
+    public string Seqname { get; set; } = null!;
+
+    public int? Lastused { get; set; }
+}

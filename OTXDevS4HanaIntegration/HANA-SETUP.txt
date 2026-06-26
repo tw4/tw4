@@ -1,0 +1,71 @@
+===========================================================
+SAP HANA EF Core Scaffold (Reverse Engineering) Rehberi
+Proje: S4HanaIntegration (.NET 8 / EF Core 8)
+Kaynak: SAP Help Portal - EF Core Support v2.27
+===========================================================
+
+KURULUM (TAMAMLANDI)
+====================
+[✓] Sap.Data.Hana.Net.v8.0        → NuGet paketi (ADO.NET driver)
+[✓] Sap.EntityFrameworkCore.Hana.v8.0.dll → lib\ klasörüne kopyalandı
+[✓] Microsoft.EntityFrameworkCore 8.0.*    → NuGet
+[✓] Microsoft.EntityFrameworkCore.Design   → NuGet
+[✓] using Sap.EntityFrameworkCore.Hana;    → Program.cs
+[✓] UseHana(connectionString)              → Program.cs
+
+BAĞLANTI STRING FORMATI (appsettings.Development.json)
+=======================================================
+"Server=SUNUCU_IP:30015;UserName=KULLANICI;Password=SIFRE;"
+
+TENANT DB İÇİN:
+"Server=SUNUCU_IP:30015;UserName=KULLANICI;Password=SIFRE;Current Schema=SAPI10;"
+
+PORT TABLOSU (instance numarasına göre):
+  Instance 00  →  30015
+  Instance 01  →  31015
+  Instance 02  →  32015
+
+SCAFFOLD KOMUTU (resmi SAP dökümantasyonu)
+==========================================
+Belirli şema scaffold etmek:
+  dotnet ef dbcontext scaffold \
+    "Server=SUNUCU:30015;uid=KULLANICI;pwd=SIFRE;" \
+    Sap.EntityFrameworkCore.Hana.v8.0 \
+    --schema SEMA_ADI \
+    --output-dir Models \
+    --context HanaDbContext \
+    --context-dir Data \
+    --no-onconfiguring \
+    --force
+
+Belirli tablolar scaffold etmek:
+  dotnet ef dbcontext scaffold \
+    "Server=SUNUCU:30015;uid=KULLANICI;pwd=SIFRE;" \
+    Sap.EntityFrameworkCore.Hana.v8.0 \
+    --table TABLO1 --table TABLO2 \
+    --output-dir Models \
+    --no-onconfiguring \
+    --force
+
+Connection string içinde şema belirtmek:
+  dotnet ef dbcontext scaffold \
+    "Server=SUNUCU:30015;uid=KULLANICI;pwd=SIFRE;Current Schema=DEMO" \
+    Sap.EntityFrameworkCore.Hana.v8.0 \
+    --output-dir Models \
+    --no-onconfiguring \
+    --force
+
+SCAFFOLD SONRASI
+================
+1. Üretilen Data\HanaDbContext.cs dosyasına şu satır eklenir (otomatik olmalı):
+   using Sap.EntityFrameworkCore.Hana;
+
+2. --no-onconfiguring kullandığımız için connection string DbContext içine
+   gömülmez, Program.cs üzerinden appsettings.json'dan okunur.
+
+3. ASLA çalıştırma:
+   - dotnet ef database update    (mevcut tabloları değiştirir!)
+   - Database.EnsureDeleted()     (tablolarını siler!)
+   - Database.EnsureCreated()     (şemayı yeniden oluşturur!)
+
+===========================================================

@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace S4HanaIntegration.Models;
+
+public partial class Kuafrightslist
+{
+    public long? Rlid { get; set; }
+
+    public long? Rlrightid { get; set; }
+
+    public short? Rlproxytype { get; set; }
+}

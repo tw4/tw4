@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace OTXProdIntegration.Models;
+
+public partial class Waudittrail
+{
+    public long? WorkauditWorkid { get; set; }
+
+    public long? WorkauditAuditid { get; set; }
+
+    public long? WorkauditSubworkid { get; set; }
+
+    public int? WorkauditTaskid { get; set; }
+
+    public long? WorkauditPerformerid { get; set; }
+
+    public DateTime? WorkauditDate { get; set; }
+
+    public int? WorkauditStatus { get; set; }
+
+    public string? WorkauditUserdata { get; set; }
+
+    public int? WorkauditTaskiternum { get; set; }
+
+    public string? WorkauditTaskTitle { get; set; }
+
+    public string? WorkauditPerformeridName { get; set; }
+}
