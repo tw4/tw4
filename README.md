@@ -21,10 +21,11 @@ Currently doing an **MSc in Computer Engineering** (2026–).
 
 | Contribution | What it was |
 |---|---|
+| [**cloudflare/workers-sdk**](https://github.com/cloudflare/workers-sdk/pull/16359) | `wrangler deploy --strict` and `versions upload --strict` no longer flag an unchanged config as destructive: absent and `undefined` binding fields now compare equal in the config diff, across every binding type; with tests. Merged Oct 2026. |
 | [**cloudflare/workers-sdk**](https://github.com/cloudflare/workers-sdk/pull/15871) | Wrangler's `workflows instances list` and `describe` now retry transient failures without breaking `--page` pagination or `--json` output; with tests. Merged Oct 2026. |
-| [**dotnet/maui**](https://github.com/dotnet/maui) | BlazorWebView URL parsing fix. `Path.HasExtension()` was run against the whole URL, so a query parameter like `?weight=62.5` looked like a file extension and blocked force-reload; the fix checks only the path component. **Shipped in .NET 10.** |
+| [**dotnet/maui**](https://github.com/dotnet/maui/pull/29560) | BlazorWebView URL parsing fix. `Path.HasExtension()` was run against the whole URL, so a query parameter like `?weight=62.5` looked like a file extension and blocked force-reload; the fix checks only the path component. **Shipped in .NET 10.** |
 | [**microsoft/windows-drivers-rs**](https://github.com/microsoft/windows-drivers-rs/pull/575) | `cargo wdk new` now respects default VCS behavior — removed a hardcoded `--vcs none`. Merged Nov 2025. |
-| [**UI5/webcomponents**](https://github.com/UI5/webcomponents) | Theming fix for read-only TextArea focus and border. |
+| [**UI5/webcomponents**](https://github.com/UI5/webcomponents/pull/9817) | Theming fix for read-only TextArea focus and border. Merged Sep 2024. |
 
 I also run [**BuzzSpire**](https://github.com/BuzzSpire) — an open-source organization, not a commercial company (I own the trademark; the org itself is a community project). Its main library is [**Nexar**](https://github.com/BuzzSpire/Nexar), an HTTP client for .NET: fluent request builder, typed responses, interceptors, exponential-backoff retries and auth helpers. 76+ tests, 100% pass, 95% coverage, MIT. BuzzSpire also makes [**Waggle**](https://waggle.buzzspire.net), a hand-drawn whiteboard for teams.
 
